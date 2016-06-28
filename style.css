@@ -1,0 +1,143 @@
+.header {
+    background-color: #0269C2;
+}
+.header-image-container img {
+    width: 60px;
+    height: 60px;
+}
+
+.header-nav li:hover a h4 {
+    color: blue;
+}
+
+.header-nav h4 {
+    color: #FFF;
+}
+
+.main-content {
+    /*background-image:url("content-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;*/
+    background-color: #eee;
+    height: auto;
+}
+
+.intro-image-content,
+.intro-text {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.image-content-container img {
+    height: 300px;
+}
+
+.intro-text {
+    color: #000;
+}
+
+.portfolio-image-container {
+    height: auto;
+    width: 100%;
+}
+
+.portfolio-image-container img {
+    height: auto;
+    width: 100%;
+    opacity: .9
+}
+
+.portfolio-image-container img:hover {
+    opacity: 1;
+}
+
+.profile-container h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px 0 0 15px;
+    margin: 15px auto;
+    text-transform: uppercase;
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.profile-header h2 {
+    display: inline;
+    vertical-align: bottom;
+}
+
+.portfolio-icons {
+    color: #000;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.footer-container {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 50px 0px;
+    text-transform: uppercase;
+}
+
+.footer-container ul li {
+    list-style: none;
+}
+.footer-container ul li a{
+    color: #333;
+}
+.add-space {
+    padding: 60px;
+}
+
+.remove-padding {
+    padding: 0 !important;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+    outline: none !important;
+}
+@media (max-width: 767px) {
+
+    .intro-text {
+        padding-top: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .intro-text h1 {
+        margin-bottom: 20px;
+    }
+    .add-space {
+        padding: 15px;
+    }
+    .profile-header {
+        padding-top: 20px;
+        float: none;
+    }
+    .profile-container, .header-image-container{
+        text-align: center;
+    }
+}
+@media (max-width: 376px) {
+    .custom-width{
+        width: 100% !important;
+    }
+    .nav>li>a{
+        padding: 10px 10px !important;
+    }
+    footer ul{
+        padding-left: 0;
+    }
+    footer ul li a h4{
+        font-size: 16px;
+    }
+}
